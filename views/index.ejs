@@ -1,0 +1,12 @@
+<%- include('header') %>
+<body class="body-image">
+    <nav class="navbar navbar-light bg-light justify-content-between">
+        <h1 class="header_tag">Bank Details</h1>
+        <form class="form-inline" id="search_bar" action="/" method="POST">
+            <label class="header_tag_label">IFSC Code</label>
+          <input class="form-control mr-sm-2"  type="text" placeholder="Search" aria-label="Search" name="code" required pattern="([A-z0-9À-ž\s]){2,}">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </nav>
+</body>
+<%- include('footer') %>
